@@ -32,6 +32,7 @@ ggplot(data = titanic, aes(x = Pclass, y = Age)) +
 ```
 
 ```{r}
+# Sex percentage
 library(table1)
 table1(~ Sex|Pclass, data = titanic)
 ```
